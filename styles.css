@@ -1,0 +1,190 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting up basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #babae7;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-image: url(bg_78.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    /* Add space between logo and nav */
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    /* Add space between nav items */
+    margin-right: 0;
+    /* Remove default margin */
+}
+
+nav ul li {
+    margin-right: 0;
+    /* Remove individual margin */
+}
+
+nav {
+    margin-left: auto;
+    /* Align nav to the right */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    /* Add transition for smooth color change */
+}
+
+nav ul li a:hover {
+    color: #66c2ff;
+    /* Change color on hover */
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: "Valorax";
+    src: url(Valorax-lg25V.otf)
+}
+
+.game {
+    font-family: "Valorax";
+    font-size: 60px;
+    padding: 30px;
+}
+
+#game2 {
+    font-family: "Valorax";
+    font-size: 90px;
+    padding: 30px;
+}
+
+#about,
+#projects,
+#blog {
+    background-image: url(1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    border-radius: 30px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+#additional-section {
+    background-image: url(AWfX.gif);
+    color: #d4d4ee;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1px;
+    padding: 40px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#additional-section h2 {
+    margin-bottom: 20px;
+}
+
+#additional-section .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 180px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#video {
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-image: url(200w.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+/* Styles for Last Section */
+#last-section {
+    background-color: #debebe;
+    border-radius: 5px;
+    padding: 40px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#last-section h2 {
+    margin-bottom: 20px;
+}
+
+#last-section .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+
+#last-section .dummy-text {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
